@@ -1,0 +1,116 @@
+body {
+	background-color: #1d3557;
+  }
+  
+  h3 {
+	margin: 5px;
+	font-size: 1.17em;
+  }
+.code-mirror-app{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.code-mirror-wrapper{
+	padding: 40px;
+	width: calc(100% - 80px);
+	max-width: 1440px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.editor-container, .suggestions-container{
+	padding: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 7px;
+	background-color: #a8dadc;
+	padding-top: 0
+}
+
+.editor-container{
+	width: calc(65% - 32px);
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.editor-container h3, .suggestions h3{
+	font-weight: 500;
+	text-align: center;
+}
+
+.suggestions-container{
+	width: calc(35% - 32px);
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+.editor, .suggestions{
+	width: 100%;
+	min-height: 600px;
+	border-radius: 7px;
+	display: flex;
+    flex-direction: column;
+}
+
+.editor {
+	background-color: #f1faee;
+  }
+
+.cm-line {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#suggestions-content{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+}
+
+.suggestions .suggestion{
+	width: calc(100% - 42px);
+	padding: 10px;
+	margin: 10px;
+	background-color: #f1faee;
+	border-radius: 7px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+.suggestions .suggestion h5{
+	font-size: 13px;
+	margin: 2px 0;
+	font-weight: 300;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.suggestions .suggestion:hover{
+	border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.suggestions .suggestion.highlighted{
+	background-color: #223039;
+    color: #FFF;
+}
+
+.suggestions .suggestion .tag{
+	display: inline-flex;
+	font-size: 12px;
+	font-weight: 300;
+	background-color: #e63946;
+	padding: 4px 10px;
+	border-radius: 7px;
+	text-align: center;
+	justify-content: center;
+}
+
+.suggestions .preloader{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}

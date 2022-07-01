@@ -1,0 +1,119 @@
+body {
+  background-color: #1d3557;
+}
+
+h3 {
+  margin: 5px;
+  font-size: 1.17em;
+}
+
+.code-mirror-app {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+  display: flex;
+}
+
+.code-mirror-wrapper {
+  width: calc(100% - 80px);
+  max-width: 1440px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 40px;
+  display: flex;
+}
+
+.editor-container, .suggestions-container {
+  background-color: #a8dadc;
+  border: 1px solid #0000004d;
+  border-radius: 7px;
+  padding: 0 10px 10px;
+}
+
+.editor-container {
+  width: calc(65% - 32px);
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.editor-container h3, .suggestions h3 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.suggestions-container {
+  width: calc(35% - 32px);
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.editor, .suggestions {
+  width: 100%;
+  min-height: 600px;
+  border-radius: 7px;
+  flex-direction: column;
+  display: flex;
+}
+
+.editor {
+  background-color: #f1faee;
+}
+
+.cm-line {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#suggestions-content {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+.suggestions .suggestion {
+  width: calc(100% - 42px);
+  cursor: pointer;
+  background-color: #f1faee;
+  border: 1px solid #0000004d;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.suggestions .suggestion h5 {
+  margin: 2px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.suggestions .suggestion:hover {
+  border: 1px solid #000000b3;
+}
+
+.suggestions .suggestion.highlighted {
+  color: #fff;
+  background-color: #223039;
+}
+
+.suggestions .suggestion .tag {
+  text-align: center;
+  background-color: #e63946;
+  border-radius: 7px;
+  justify-content: center;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 300;
+  display: inline-flex;
+}
+
+.suggestions .preloader {
+  width: 100%;
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.1303bb05.css.map */
