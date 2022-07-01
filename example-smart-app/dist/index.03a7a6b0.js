@@ -9,7 +9,6 @@
             console.log('Patient present in smart:', smart.hasOwnProperty('patient'));
             if (smart.hasOwnProperty('patient')) {
                 var patient1 = smart.patient;
-                console.log(patient1);
                 var pt = patient1.read();
                 var obv1 = smart.patient.api.fetchAll({
                     type: 'Observation',
@@ -29,6 +28,7 @@
                 $.when(pt, obv1).fail(onError);
                 $.when(pt, obv1).done(function(patient, obv) {
                     var byCodes = smart.byCodes(obv, 'code');
+                    console.log(patient);
                     var gender = patient.gender;
                     var fname = '';
                     var lname = '';
