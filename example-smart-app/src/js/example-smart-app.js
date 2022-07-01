@@ -27,9 +27,8 @@
 
         $.when(pt, obv).done(function(patient, obv) {
           var byCodes = smart.byCodes(obv, 'code');
-          
+          console.log(patient)
           var gender = patient.gender;
-          console.log(patient.id);
           var fname = '';
           var lname = '';
 
@@ -130,7 +129,8 @@
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
-    $('#mrn').html(p.id);
+    $('#id').html(p.id);
+    $('#mrn').html(p.mrn);
   };
 
 })(window);
