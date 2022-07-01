@@ -9,6 +9,7 @@
             console.log('Patient present in smart:', smart.hasOwnProperty('patient'));
             if (smart.hasOwnProperty('patient')) {
                 var patient1 = smart.patient;
+                console.log(patient1);
                 var pt = patient1.read();
                 var obv1 = smart.patient.api.fetchAll({
                     type: 'Observation',
