@@ -48,7 +48,7 @@
                     p.height = getQuantityValueAndUnit(height[0]);
                     p.id = patient.id;
                     let tempvar = patient.identifier;
-                    console.log("printing tempvar: ", "Hello");
+                    console.log("printing tempvar: ", tempvar[2]);
                     // console.log(p.mrn);
                     if (typeof systolicbp != 'undefined') p.systolicbp = systolicbp;
                     if (typeof diastolicbp != 'undefined') p.diastolicbp = diastolicbp;

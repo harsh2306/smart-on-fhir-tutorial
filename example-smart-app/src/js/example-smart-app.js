@@ -53,7 +53,7 @@
           
           let tempvar = patient.identifier;
 
-          console.log("printing tempvar: ", "Hello");
+          console.log("printing tempvar: ", tempvar[2]);
           // console.log(p.mrn);
 
           if (typeof systolicbp != 'undefined')  {
