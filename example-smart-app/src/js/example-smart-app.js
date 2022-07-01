@@ -50,8 +50,10 @@
           p.lname = lname;
           p.height = getQuantityValueAndUnit(height[0]);
           p.id = patient.id;
+          
           let tempvar = patient.identifier;
-          console.log(tempvar);
+
+          console.log("printing tempvar: ", tempvar[2]);
           console.log(p.mrn);
 
           if (typeof systolicbp != 'undefined')  {
