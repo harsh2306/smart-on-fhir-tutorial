@@ -27,7 +27,7 @@
 
         $.when(pt, obv).done(function(patient, obv) {
           var byCodes = smart.byCodes(obv, 'code');
-          console.log(patient)
+          console.log(patient.identifier)
           var gender = patient.gender;
           var fname = '';
           var lname = '';
@@ -36,6 +36,8 @@
             fname = patient.name[0].given.join(' ');
             lname = patient.name[0].family.join(' ');
           }
+          let mrn = patient.identifier;
+          console.log(mrn);
 
           var height = byCodes('8302-2');
           var systolicbp = getBloodPressureValue(byCodes('55284-4'),'8480-6');
@@ -50,6 +52,7 @@
           p.lname = lname;
           p.height = getQuantityValueAndUnit(height[0]);
           p.id = patient.id;
+          // p.mrn = patient.identifier;
 
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;
@@ -86,6 +89,7 @@
       ldl: {value: ''},
       hdl: {value: ''},
       id: {value: ''},
+      // mrn: {value: ''},
     };
   }
 
@@ -130,7 +134,7 @@
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
     $('#id').html(p.id);
-    $('#mrn').html(p.mrn);
+    // $('#mrn').html(p.mrn);
   };
 
 })(window);
