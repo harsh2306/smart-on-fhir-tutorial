@@ -113,7 +113,7 @@
 83C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\colors\themes133011333073947710 1
 79C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\camelcase133011332960645837 1
 121C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\babel-runtime\helpers\taggedTemplateLiteralLoose.js132986245838726943 0
-61C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\dist133011366323918617 1
+61C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\dist133011369677498623 1
 87C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\repeating\license132986245876014676 0
 108C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\core-js\library\fn\number\is-finite.js132986245847631158 0
 101C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\caniuse-lite\data\regions\AX.js132986245844723173 0
@@ -342,7 +342,7 @@
 75C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\uniqs133011333412096478 1
 81C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@codemirror133011332679459665 1
 124C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@swc\helpers\src\_class_static_private_field_update.js132986245835379426 0
-84C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\src\js\example-smart-app.js133011366241706573 0
+84C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\src\js\example-smart-app.js133011369629083584 0
 89C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\buffer-from\LICENSE132986245839950984 0
 129C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\postcss-svgo\node_modules\postcss\docs\guidelines\plugin.md132986245873890102 0
 102C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\worker-farm\examples\pi\index.js132986245886171763 0
@@ -4286,7 +4286,7 @@
 103C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\uri-js\dist\esnext\schemes\urn.js132986245885462489 0
 124C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\transformer-css\node_modules\@parcel\utils\src133011332780417194 1
 108C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\stream-http\test\browser\body-empty.js132986245877833235 0
-114C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\cache\node_modules\@parcel\utils\lib133011332683473837 1
+114C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\cache\node_modules\@parcel\utils\lib133011332683493842 1
 104C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\uri-js\dist\esnext\schemes\ws.d.ts132986245885465056 0
 118C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\parcel\node_modules\@parcel\watcher\src\watchman133011333296150508 1
 103C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\uri-js\dist\esnext\schemes\wss.js132986245885475702 0
@@ -8990,7 +8990,7 @@
 130C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\postcss-normalize-charset\node_modules\postcss\lib\result.js132986245871955493 0
 149C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\runtime-service-worker\node_modules\@parcel\utils\test\throttle.test.js132986245815401206 0
 128C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\postcss-normalize-charset\node_modules\postcss\lib\root.js132986245871955493 0
-83C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\dist\index.03a7a6b0.js.map133011366321392835 0
+83C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\dist\index.03a7a6b0.js.map133011369677379925 0
 135C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\postcss-normalize-charset\node_modules\postcss\lib\stringifier.js132986245871965524 0
 106C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\caniuse-db\region-usage-json\ZW.json132986245843226293 0
 145C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\css-select-adapter.js132986245803107958 0
@@ -16124,7 +16124,7 @@
 125C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\core-js\library\modules\es7.reflect.has-own-metadata.js132986245848838068 0
 95C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\autoprefixer\CHANGELOG.md132986245836760659 0
 91C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\coa\lib\completion.sh132986245845760226 0
-115C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\cache\node_modules\@parcel\logger\lib133009729500814393 1
+115C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\cache\node_modules\@parcel\logger\lib133011332683313833 1
 117C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\core-js\library\modules\es7.reflect.metadata.js132986245848848023 0
 96C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\ajv\lib\compile\formats.js132986245835844099 0
 107C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\core-js\library\modules\es7.set.of.js132986245848848023 0
@@ -18413,7 +18413,7 @@
 93C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\babel-types\lib\flow.js132986245838927612 0
 158C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\transformer-babel\node_modules\@parcel\utils\test\input\sourcemap\source-root.js132986245816358104 0
 99C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\babel-types\lib\validators.js132986245838937656 0
-124C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\utils\lib133011332743609926 1
+124C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\utils\lib133011332743629930 1
 113C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\babel-types\lib\definitions\experimental.js132986245838911232 0
 105C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\babel-types\lib\definitions\flow.js132986245838911232 0
 95C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\babel-traverse\.npmignore132986245838792249 0
@@ -21346,7 +21346,7 @@
 142C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\packager-js\node_modules\@parcel\utils\test\prettifyTime.test.js132986245810264399 0
 154C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\optimizer-htmlnano\node_modules\purgecss\node_modules\commander\lib\error.js132986245802852567 0
 142C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\packager-js\node_modules\@parcel\utils\test\PromiseQueue.test.js132986245810221680 0
-110C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\logger133011332689794215 1
+110C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\logger133011332689824195 1
 139C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\packager-js\node_modules\@parcel\utils\test\sourcemap.test.js132986245810264399 0
 138C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\packager-js\node_modules\@parcel\utils\test\throttle.test.js132986245810264399 0
 137C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\packager-js\node_modules\@parcel\utils\test\input\sourcemap133011332756017415 1
@@ -21709,7 +21709,7 @@
 129C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\ansi-styles\index.d.ts132986245808076799 0
 117C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\fs133011332743258894 1
 85C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\.bin\parcel.cmd132986245792609740 0
-121C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\logger133011332743469907 1
+121C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\logger133011332743499907 1
 137C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-merge-rules\src\lib133011332719620464 1
 122C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\workers133011332746103071 1
 126C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\workers\lib133011332745760801 1
@@ -21832,7 +21832,7 @@
 133C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\utils\lib\index.js132986245807354195 0
 137C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\utils\lib\index.js.map132986245807466078 0
 130C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\node-resolver-core\node_modules\ansi-styles\index.js132986245799356370 0
-125C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\logger\lib133009729738938969 1
+125C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\logger\lib133011332743449898 1
 134C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\logger\package.json132986245807254236 0
 125C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\fs\LICENSE132986245807184148 0
 130C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\package-manager\node_modules\@parcel\fs\package.json132986245807224223 0
@@ -23731,7 +23731,7 @@
 152C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\watcher\prebuilds\linux-x64\node.napi.glibc.node132986245796176227 0
 151C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\watcher\prebuilds\linux-x64\node.napi.musl.node132986245796206626 0
 153C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\watcher\prebuilds\darwin-x64\node.napi.glibc.node132986245796146267 0
-113C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\utils\lib133011332689934219 1
+113C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\utils\lib133011332689954419 1
 122C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\utils\package.json132986245795912956 0
 113C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\utils\src133011332690598122 1
 129C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\utils\test\config.test.js132986245796055464 0
@@ -23772,7 +23772,7 @@
 124C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\utils\src\urlJoin.js132986245796038156 0
 122C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\utils\lib\index.js132986245795803303 0
 126C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\utils\lib\index.js.map132986245795903476 0
-114C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\logger\lib133009729523351872 1
+114C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\logger\lib133011332689784211 1
 123C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\logger\package.json132986245795702608 0
 101C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@codemirror\basic-setup\.github133011332676236690 1
 114C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\core\node_modules\@parcel\logger\src133011332689814215 1
@@ -23891,7 +23891,7 @@
 117C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\cache\node_modules\ansi-styles\index.js132986245794884125 0
 121C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\cache\node_modules\ansi-styles\package.json132986245794894203 0
 118C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\cache\node_modules\ansi-styles\readme.md132986245794894203 0
-111C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\cache\node_modules\@parcel\logger133011332683333834 1
+111C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\cache\node_modules\@parcel\logger133011332683374053 1
 112C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\cache\node_modules\@parcel\watcher133011332684826699 1
 123C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\cache\node_modules\@parcel\workers\index.d.ts132986245794754192 0
 116C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\node_modules\@parcel\cache\node_modules\@parcel\workers\src133011332685971973 1
@@ -24276,7 +24276,7 @@
 63C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\lib\js133005189931344471 1
 104C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\lib\js\cerner-smart-embeddable-lib-1.0.0.min.js133005189931274493 0
 101C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\lib\js\fhir-client-cerner-additions-1.0.0.js133005189931274493 0
-79C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\dist\index.03a7a6b0.js133011366321351932 0
+79C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\dist\index.03a7a6b0.js133011369677340882 0
 79C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\dist\index.0d972a35.js133011286040814772 0
 83C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\dist\index.20bf30ec.js.map133011282526266557 0
 80C:\C-BIA\Cerner\smart-on-fhir-tutorial\example-smart-app\dist\index.7a30a80f.css133011337511759107 0
