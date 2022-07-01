@@ -47,6 +47,7 @@
                     p.fname = fname;
                     p.lname = lname;
                     p.height = getQuantityValueAndUnit(height[0]);
+                    p.id = patient.id;
                     if (typeof systolicbp != 'undefined') p.systolicbp = systolicbp;
                     if (typeof diastolicbp != 'undefined') p.diastolicbp = diastolicbp;
                     p.hdl = getQuantityValueAndUnit(hdl[0]);
@@ -86,6 +87,9 @@
             },
             hdl: {
                 value: ''
+            },
+            id: {
+                value: ''
             }
         };
     }
@@ -120,6 +124,7 @@
         $('#diastolicbp').html(p.diastolicbp);
         $('#ldl').html(p.ldl);
         $('#hdl').html(p.hdl);
+        $('#mrn').html(p.id);
     };
 })(window);
 
