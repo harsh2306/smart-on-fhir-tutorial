@@ -1,5 +1,5 @@
 {
-  "name": "mi1-autodeploy",
+  "name": "example-smart-app",
   "version": "1.0.0",
   "description": "",
   "homepage": "http://.",
@@ -26,9 +26,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harsh2306/MI1-Autodeploy.git"
+    "url": "git+https://github.com/harsh2306/smart-on-fhir-tutorial.git"
   },
   "bugs": {
-    "url": "https://github.com/harsh2306/MI1-Autodeploy/issues"
+    "url": "https://github.com/harsh2306/smart-on-fhir-tutorial/issues"
   }
 }
