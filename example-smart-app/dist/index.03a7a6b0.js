@@ -28,8 +28,8 @@
                 $.when(pt, obv1).fail(onError);
                 $.when(pt, obv1).done(function(patient, obv) {
                     var byCodes = smart.byCodes(obv, 'code');
-                    console.log(patient.gender);
                     var gender = patient.gender;
+                    console.log(gender);
                     var fname = '';
                     var lname = '';
                     if (typeof patient.name[0] !== 'undefined') {
