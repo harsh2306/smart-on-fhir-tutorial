@@ -58,7 +58,7 @@
                     // p.mrn = patientMRN; 
                     // console.log("printing mrn after loop" , p.mrn);
                     let tempvar = patient.identifier;
-                    console.log("printing tempvar[2]: ", tempvar[1]);
+                    console.log("printing tempvar[1]: ", tempvar[1][value]);
                     if (typeof systolicbp != 'undefined') p.systolicbp = systolicbp;
                     if (typeof diastolicbp != 'undefined') p.diastolicbp = diastolicbp;
                     p.hdl = getQuantityValueAndUnit(hdl[0]);
