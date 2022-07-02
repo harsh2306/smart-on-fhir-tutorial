@@ -80,7 +80,7 @@
                     console.log("printing patient: ", patient);
                     console.log("printing getMRn: ", getMRN);
                     console.log("printing tempvar[1]: ", tempvar);
-                    console.log("printing getmrn value: ", getMRN[1].value.join(' '));
+                    console.log("printing getmrn value: ", getMRN[1].join(' '));
                     if (typeof systolicbp != 'undefined') p.systolicbp = systolicbp;
                     if (typeof diastolicbp != 'undefined') p.diastolicbp = diastolicbp;
                     p.hdl = getQuantityValueAndUnit(hdl[0]);
