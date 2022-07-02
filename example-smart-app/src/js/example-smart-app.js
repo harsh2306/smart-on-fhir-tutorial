@@ -69,7 +69,7 @@
 
           let tempvar = patient.identifier; 
 
-          console.log("printing tempvar[2]: ", tempvar[2]);
+          console.log("printing tempvar[1]: ", tempvar[1]);
 
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;
