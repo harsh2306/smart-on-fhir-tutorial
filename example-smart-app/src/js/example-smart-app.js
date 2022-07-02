@@ -52,7 +52,7 @@
           p.id = patient.id;
           
           
-          // let getMRN = patient.identifier;
+          let getMRN = patient.identifier;
 
           // for(i=0 ; i <= getMRN.length ; i++) {
           //   getText = i.find('text')
@@ -66,10 +66,18 @@
 
           // console.log("printing mrn after loop" , p.mrn);
 
+          for(let i = 0; i < getMRN.length; i++) {
+  
+            for(let j = 0; j < getMRN[i].length; j++) {
+              
+               console.log(getMRN[i][j]);
+            }
+         }
+
 
           let tempvar = patient.identifier; 
 
-          console.log("printing tempvar[1]: ", tempvar[1][value]);
+          console.log("printing tempvar[1]: ", tempvar[1]);
 
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;
