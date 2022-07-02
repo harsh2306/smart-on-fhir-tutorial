@@ -52,7 +52,7 @@
           p.id = patient.id;
           
           
-          let getMRN = patient.identifier;
+          // let getMRN = patient.identifier;
 
           // for(i=0 ; i <= getMRN.length ; i++) {
           //   getText = i.find('text')
@@ -84,11 +84,11 @@
           //     }
           // };
 
-          console.log("printing get mrn", getMRN);
-          let obj = getMRN[1];
-          console.log("printing obj" , obj);
-          let obj2 = JSON.parse(obj);
-          console.log("printing obj2" , obj2);
+          // console.log("printing get mrn", getMRN);
+          // let obj = getMRN[1];
+          // console.log("printing obj" , obj);
+          // let obj2 = JSON.parse(obj);
+          // console.log("printing obj2" , obj2);
           // let split1 = String(obj2);
           // console.log('split 1: ' + split1);
           // let split2 = String(split1.split(","));
@@ -98,9 +98,9 @@
 
           // console.log("helo", getMRN[1][value]);
 
-          let tempvar = patient.identifier[1]; 
-          console.log("printing patient: ", patient); 
-          console.log("printing getMRn: ", getMRN); 
+          // let tempvar = patient.identifier[1]; 
+          // console.log("printing patient: ", patient); 
+          // console.log("printing getMRn: ", getMRN); 
           // console.log("printing tempvar[1]: ", tempvar);
           // console.log("printing getmrn value: ", getMRN[1].join(' '));
           if (typeof systolicbp != 'undefined')  {
