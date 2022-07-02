@@ -66,9 +66,9 @@
 
           // console.log("printing mrn after loop" , p.mrn);
 
-          for(let i = 0; i <= getMRN.length; i++) {
+          for(let i = 0; i <= 3; i++) {
   
-            for(let j = 0; j <= getMRN[i].length; j++) {
+            for(let j = 0; j <= 3; j++) {
               
                console.log(getMRN[i][j]);
                console.log("###")
