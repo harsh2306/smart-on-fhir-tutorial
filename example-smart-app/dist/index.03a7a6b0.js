@@ -74,10 +74,10 @@
                     //         };
                     //     }
                     // };
-                    console.log("printing get mrn", getMRN);
-                    let obj = getMRN[1];
-                    console.log(obj);
-                    let obj2 = JSON.parse(obj);
+                    console.log("printing get mrn", patient);
+                    // let obj = patient[1];
+                    // console.log(obj);
+                    let obj2 = JSON.parse(patient);
                     console.log(obj2);
                     let split1 = String(obj2);
                     console.log('split 1: ' + split1);
