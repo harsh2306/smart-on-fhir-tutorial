@@ -47,7 +47,7 @@
                     p.lname = lname;
                     p.height = getQuantityValueAndUnit(height[0]);
                     p.id = patient.id;
-                    let getMRN = patient;
+                    let getMRN = patient.identifier;
                     // for(i=0 ; i <= getMRN.length ; i++) {
                     //   getText = i.find('text')
                     //   if (getText != null && getText['value'] == "EPI"){
@@ -74,7 +74,7 @@
                     //         };
                     //     }
                     // };
-                    console.log("helllo", getMRN[identifier][1]);
+                    console.log("helllo", getMRN[1]);
                     let tempvar = patient.identifier;
                     console.log("printing tempvar[1]: ", tempvar[1]);
                     if (typeof systolicbp != 'undefined') p.systolicbp = systolicbp;

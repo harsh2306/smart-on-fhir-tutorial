@@ -52,7 +52,7 @@
           p.id = patient.id;
           
           
-          let getMRN = patient;
+          let getMRN = patient.identifier;
 
           // for(i=0 ; i <= getMRN.length ; i++) {
           //   getText = i.find('text')
@@ -84,7 +84,7 @@
           //     }
           // };
           
-          console.log("helllo", getMRN[identifier][1])
+          console.log("helllo", getMRN[1])
 
           let tempvar = patient.identifier; 
 
