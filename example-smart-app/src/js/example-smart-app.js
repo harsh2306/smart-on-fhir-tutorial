@@ -83,12 +83,13 @@
           //         };
           //     }
           // };
+          console.log("printing get mrn", getMRN);
           
-          console.log("helo", getMRN[1][value])
+          // console.log("helo", getMRN[1][value]);
 
-          let tempvar = patient.identifier; 
-
-          console.log("printing tempvar[1]: ", tempvar[1]);
+          let tempvar = patient.identifier[1]; 
+          console.log("printing tempvar: ", getMRN); 
+          console.log("printing tempvar[1]: ", tempvar);
 
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;
