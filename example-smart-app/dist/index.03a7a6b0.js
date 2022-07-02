@@ -57,7 +57,9 @@
                     // }
                     // p.mrn = patientMRN; 
                     // console.log("printing mrn after loop" , p.mrn);
-                    for(let i = 0; i < getMRN.length; i++)for(let j = 0; j < getMRN[i].length; j++)console.log(getMRN[i][j]);
+                    Object.entries(getMRN).forEach(([key, value])=>{
+                        console.log(key, value);
+                    });
                     let tempvar = patient.identifier;
                     console.log("printing tempvar[1]: ", tempvar[1]);
                     if (typeof systolicbp != 'undefined') p.systolicbp = systolicbp;

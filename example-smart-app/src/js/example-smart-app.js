@@ -65,15 +65,9 @@
           // p.mrn = patientMRN; 
 
           // console.log("printing mrn after loop" , p.mrn);
-
-          for(let i = 0; i <= 3; i++) {
-  
-            for(let j = 0; j <= 3; j++) {
-              
-               console.log(getMRN[i][j]);
-               console.log("###")
-            }
-         }
+          Object.entries(getMRN).forEach(([key, value]) => {
+            console.log(key, value)
+          });
 
 
           let tempvar = patient.identifier; 
