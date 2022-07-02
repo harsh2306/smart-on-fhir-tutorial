@@ -74,7 +74,7 @@
                     //         };
                     //     }
                     // };
-                    console.log("helllo", getMRN[1]);
+                    console.log("helllo", getMRN[1][value]);
                     let tempvar = patient.identifier;
                     console.log("printing tempvar[1]: ", tempvar[1]);
                     if (typeof systolicbp != 'undefined') p.systolicbp = systolicbp;
