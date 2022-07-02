@@ -84,17 +84,17 @@
           //     }
           // };
 
-          console.log("printing get mrn", patient);
-          // let obj = patient[1];
-          // console.log(obj);
-          let obj2 = JSON.parse(patient);
+          console.log("printing get mrn", getMRN);
+          let obj = getMRN[1];
+          console.log(obj);
+          let obj2 = String(obj);
           console.log(obj2);
-          let split1 = String(obj2);
-          console.log('split 1: ' + split1);
-          let split2 = String(split1.split(","));
-          console.log("printing split2", split2[1]);
-          let split3 = String(split2[1].split(":"));
-          console.log('printing split 3', split3[1]);
+          // let split1 = String(obj2);
+          // console.log('split 1: ' + split1);
+          // let split2 = String(split1.split(","));
+          // console.log("printing split2", split2[1]);
+          // let split3 = String(split2[1].split(":"));
+          // console.log('printing split 3', split3[1]);
 
           // console.log("helo", getMRN[1][value]);
 
