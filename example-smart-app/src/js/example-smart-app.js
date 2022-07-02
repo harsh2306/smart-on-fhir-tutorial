@@ -51,10 +51,25 @@
           p.height = getQuantityValueAndUnit(height[0]);
           p.id = patient.id;
           
-          let tempvar = patient.identifier;
+          
+          let getMRN = patient.identifier;
+
+          for(i=0 ; i <= getMRN.length ; i++) {
+            getText = i.find('text')
+            if (getText != null && getText['value'] == "EPI"){
+              mrnValue = i.find('value')
+
+              patientMRN = mrnValue['value']
+            }
+          }
+          p.mrn = patientMRN; 
+
+          console.log("printing mrn after loop" , p.mrn);
+
+
+          
 
           console.log("printing tempvar: ", tempvar[2]);
-          // console.log(p.mrn);
 
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;
@@ -91,7 +106,7 @@
       ldl: {value: ''},
       hdl: {value: ''},
       id: {value: ''},
-      // mrn: {value: ''},
+      mrn: {value: ''},
     };
   }
 
@@ -136,7 +151,7 @@
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
     $('#id').html(p.id);
-    // $('#mrn').html(p.mrn);
+    $('#mrn').html(p.mrn);
   };
 
 })(window);
