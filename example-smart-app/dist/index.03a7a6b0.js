@@ -76,9 +76,9 @@
                     // };
                     console.log("printing get mrn", getMRN);
                     let obj = getMRN[1];
-                    console.log(obj);
-                    let obj2 = String(obj);
-                    console.log(obj2);
+                    console.log("printing obj", obj);
+                    let obj2 = JSON.parse(obj);
+                    console.log("printing obj2", obj2);
                     // let split1 = String(obj2);
                     // console.log('split 1: ' + split1);
                     // let split2 = String(split1.split(","));
