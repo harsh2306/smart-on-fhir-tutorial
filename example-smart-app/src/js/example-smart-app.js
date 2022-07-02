@@ -65,13 +65,16 @@
           // p.mrn = patientMRN; 
 
           // console.log("printing mrn after loop" , p.mrn);
-          Object.entries(getMRN).forEach(([key, value]) => {
-            if(key == 1){
-              console.log("printing from inside");
-              console.log(value[value]);
-            }
-          });
-
+          // Object.entries(getMRN).forEach(([key, value]) => {
+          //   if(key == 1){
+          //     console.log("printing from inside");
+          //     console.log(value[value]);
+          //   }
+          // });
+          var parsedmrn = JSON.parse(getMRN);
+          console.log("##");
+          console.log(parsedmrn);
+          console.log("##");
 
           let tempvar = patient.identifier; 
 
