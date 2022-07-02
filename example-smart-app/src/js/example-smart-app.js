@@ -52,24 +52,24 @@
           p.id = patient.id;
           
           
-          let getMRN = patient.identifier;
+          // let getMRN = patient.identifier;
 
-          for(i=0 ; i <= getMRN.length ; i++) {
-            getText = i.find('text')
-            if (getText != null && getText['value'] == "EPI"){
-              mrnValue = i.find('value')
+          // for(i=0 ; i <= getMRN.length ; i++) {
+          //   getText = i.find('text')
+          //   if (getText != null && getText['value'] == "EPI"){
+          //     mrnValue = i.find('value')
 
-              patientMRN = mrnValue['value']
-            }
-          }
-          p.mrn = patientMRN; 
+          //     patientMRN = mrnValue['value']
+          //   }
+          // }
+          // p.mrn = patientMRN; 
 
-          console.log("printing mrn after loop" , p.mrn);
+          // console.log("printing mrn after loop" , p.mrn);
 
 
-          
+          let tempvar = patient.identifier; 
 
-          console.log("printing tempvar: ", tempvar[2]);
+          console.log("printing tempvar[2]: ", tempvar[2]);
 
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;

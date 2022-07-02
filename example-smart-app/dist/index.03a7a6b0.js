@@ -47,9 +47,18 @@
                     p.lname = lname;
                     p.height = getQuantityValueAndUnit(height[0]);
                     p.id = patient.id;
+                    // let getMRN = patient.identifier;
+                    // for(i=0 ; i <= getMRN.length ; i++) {
+                    //   getText = i.find('text')
+                    //   if (getText != null && getText['value'] == "EPI"){
+                    //     mrnValue = i.find('value')
+                    //     patientMRN = mrnValue['value']
+                    //   }
+                    // }
+                    // p.mrn = patientMRN; 
+                    // console.log("printing mrn after loop" , p.mrn);
                     let tempvar = patient.identifier;
                     console.log("printing tempvar: ", tempvar[2]);
-                    // console.log(p.mrn);
                     if (typeof systolicbp != 'undefined') p.systolicbp = systolicbp;
                     if (typeof diastolicbp != 'undefined') p.diastolicbp = diastolicbp;
                     p.hdl = getQuantityValueAndUnit(hdl[0]);
@@ -92,6 +101,9 @@
             },
             id: {
                 value: ''
+            },
+            mrn: {
+                value: ''
             }
         };
     }
@@ -127,7 +139,7 @@
         $('#ldl').html(p.ldl);
         $('#hdl').html(p.hdl);
         $('#id').html(p.id);
-    // $('#mrn').html(p.mrn);
+        $('#mrn').html(p.mrn);
     };
 })(window);
 
