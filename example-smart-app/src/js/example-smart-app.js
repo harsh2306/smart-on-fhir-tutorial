@@ -84,7 +84,7 @@
           //     }
           // };
           
-          console.log("helllo", getMRN[1][value])
+          console.log("helo", getMRN[1][value])
 
           let tempvar = patient.identifier; 
 
