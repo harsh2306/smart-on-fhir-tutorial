@@ -75,12 +75,17 @@
                     //     }
                     // };
                     console.log("printing get mrn", getMRN);
+                    let split1 = String(getMRN);
+                    let split2 = split1.split(" ");
+                    console.log("printing split2", split2);
+                    let split3 = split2.split(":");
+                    console.log('printing split 3', split3);
                     // console.log("helo", getMRN[1][value]);
                     let tempvar = patient.identifier[1];
                     console.log("printing patient: ", patient);
                     console.log("printing getMRn: ", getMRN);
-                    console.log("printing tempvar[1]: ", tempvar);
-                    console.log("printing getmrn value: ", getMRN[1].join(' '));
+                    // console.log("printing tempvar[1]: ", tempvar);
+                    // console.log("printing getmrn value: ", getMRN[1].join(' '));
                     if (typeof systolicbp != 'undefined') p.systolicbp = systolicbp;
                     if (typeof diastolicbp != 'undefined') p.diastolicbp = diastolicbp;
                     p.hdl = getQuantityValueAndUnit(hdl[0]);
