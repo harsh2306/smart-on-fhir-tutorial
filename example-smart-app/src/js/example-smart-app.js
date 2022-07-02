@@ -88,9 +88,10 @@
           // console.log("helo", getMRN[1][value]);
 
           let tempvar = patient.identifier[1]; 
-          console.log("printing tempvar: ", getMRN); 
+          console.log("printing patient: ", patient); 
+          console.log("printing getMRn: ", getMRN); 
           console.log("printing tempvar[1]: ", tempvar);
-
+          console.log("printing getmrn value: ", getMRN[1].value.join(' '));
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;
           }
