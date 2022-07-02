@@ -76,10 +76,11 @@
                     // };
                     console.log("printing get mrn", getMRN);
                     let split1 = String(getMRN);
-                    let split2 = String(split1.split(" "));
-                    console.log("printing split2", split2);
-                    let split3 = String(split2.split(":"));
-                    console.log('printing split 3', split3);
+                    console.log('split 1: ' + split1);
+                    let split2 = String(split1.split(","));
+                    console.log("printing split2", split2[1]);
+                    let split3 = String(split2[1].split(":"));
+                    console.log('printing split 3', split3[1]);
                     // console.log("helo", getMRN[1][value]);
                     let tempvar = patient.identifier[1];
                     console.log("printing patient: ", patient);
