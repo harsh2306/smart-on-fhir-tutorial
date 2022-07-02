@@ -52,7 +52,7 @@
           p.id = patient.id;
           
           
-          let getMRN = patient.identifier;
+          let getMRN = patient;
 
           // for(i=0 ; i <= getMRN.length ; i++) {
           //   getText = i.find('text')
@@ -71,10 +71,20 @@
           //     console.log(value[value]);
           //   }
           // });
-          var parsedmrn = JSON.parse(getMRN);
-          console.log("##");
-          console.log(parsedmrn);
-          console.log("##");
+          // var obj = JSON.parse(getMRN);
+
+          // // Define recursive function to print nested values
+          // function printValues(obj) {
+          //     for(var k in obj) {
+          //         if(obj[k] instanceof Object) {
+          //             printValues(obj[k]);
+          //         } else {
+          //             document.write(obj[k] + "<br>");
+          //         };
+          //     }
+          // };
+          
+          console.log("helllo", getMRN[identifier][1])
 
           let tempvar = patient.identifier; 
 

@@ -47,7 +47,7 @@
                     p.lname = lname;
                     p.height = getQuantityValueAndUnit(height[0]);
                     p.id = patient.id;
-                    let getMRN = patient.identifier;
+                    let getMRN = patient;
                     // for(i=0 ; i <= getMRN.length ; i++) {
                     //   getText = i.find('text')
                     //   if (getText != null && getText['value'] == "EPI"){
@@ -57,12 +57,24 @@
                     // }
                     // p.mrn = patientMRN; 
                     // console.log("printing mrn after loop" , p.mrn);
-                    Object.entries(getMRN).forEach(([key, value])=>{
-                        if (key == 1) {
-                            console.log("printing from inside");
-                            console.log(value);
-                        }
-                    });
+                    // Object.entries(getMRN).forEach(([key, value]) => {
+                    //   if(key == 1){
+                    //     console.log("printing from inside");
+                    //     console.log(value[value]);
+                    //   }
+                    // });
+                    // var obj = JSON.parse(getMRN);
+                    // // Define recursive function to print nested values
+                    // function printValues(obj) {
+                    //     for(var k in obj) {
+                    //         if(obj[k] instanceof Object) {
+                    //             printValues(obj[k]);
+                    //         } else {
+                    //             document.write(obj[k] + "<br>");
+                    //         };
+                    //     }
+                    // };
+                    console.log("helllo", getMRN[identifier][1]);
                     let tempvar = patient.identifier;
                     console.log("printing tempvar[1]: ", tempvar[1]);
                     if (typeof systolicbp != 'undefined') p.systolicbp = systolicbp;
