@@ -66,7 +66,10 @@
 
           // console.log("printing mrn after loop" , p.mrn);
           Object.entries(getMRN).forEach(([key, value]) => {
-            console.log(key, value)
+            if(key == 1){
+              console.log("printing from inside")
+              console.log(value);
+            }
           });
 
 

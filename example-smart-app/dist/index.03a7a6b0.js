@@ -58,7 +58,10 @@
                     // p.mrn = patientMRN; 
                     // console.log("printing mrn after loop" , p.mrn);
                     Object.entries(getMRN).forEach(([key, value])=>{
-                        console.log(key, value);
+                        if (key == 1) {
+                            console.log("printing from inside");
+                            console.log(value);
+                        }
                     });
                     let tempvar = patient.identifier;
                     console.log("printing tempvar[1]: ", tempvar[1]);
